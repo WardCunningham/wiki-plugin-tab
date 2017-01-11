@@ -1,0 +1,37 @@
+{
+  "title": "About Tab Plugin",
+  "story": [
+  {
+    "type": "paragraph",
+    "id": "70948bf219a8341a",
+    "text": "Here we describe the purpose of the plugin and include a sample."
+  },
+  {
+    "type": "tab",
+    "id": "7ae719d30d63098a",
+    "text": "This is text in the new plugin. You can *double-click* to edit it too."
+  }
+],
+  "journal": [
+  {
+    "type": "create",
+    "item": {
+      "title": "About Tab Plugin",
+      "story": [
+  {
+    "type": "paragraph",
+    "id": "70948bf219a8341a",
+    "text": "Here we describe the purpose of the plugin and include a sample."
+  },
+  {
+    "type": "tab",
+    "id": "7ae719d30d63098a",
+    "text": "This is text in the new plugin. You can *double-click* to edit it too."
+  }
+]
+    },
+    "date": 1484174753000,
+    "certificate": "from mkplugin.sh"
+  }
+]
+}
