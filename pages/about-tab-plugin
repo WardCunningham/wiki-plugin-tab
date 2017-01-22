@@ -1,37 +1,128 @@
 {
   "title": "About Tab Plugin",
   "story": [
-  {
-    "type": "paragraph",
-    "id": "70948bf219a8341a",
-    "text": "Here we describe the purpose of the plugin and include a sample."
-  },
-  {
-    "type": "tab",
-    "id": "7ae719d30d63098a",
-    "text": "This is text in the new plugin. You can *double-click* to edit it too."
-  }
-],
-  "journal": [
-  {
-    "type": "create",
-    "item": {
-      "title": "About Tab Plugin",
-      "story": [
-  {
-    "type": "paragraph",
-    "id": "70948bf219a8341a",
-    "text": "Here we describe the purpose of the plugin and include a sample."
-  },
-  {
-    "type": "tab",
-    "id": "7ae719d30d63098a",
-    "text": "This is text in the new plugin. You can *double-click* to edit it too."
-  }
-]
+    {
+      "type": "paragraph",
+      "id": "70948bf219a8341a",
+      "text": "This plugin will fetch and locally share tabular data from Wikimedia Commons .tab format files. [https://www.mediawiki.org/wiki/Help:Tabular_Data wikimedia]"
     },
-    "date": 1484174753000,
-    "certificate": "from mkplugin.sh"
-  }
-]
+    {
+      "type": "tab",
+      "id": "7ae719d30d63098a",
+      "text": "Bea.gov/GDP by state.tab"
+    },
+    {
+      "type": "paragraph",
+      "id": "aaad76af5c88579a",
+      "text": "Double-click to edit the .tab page title."
+    },
+    {
+      "type": "paragraph",
+      "id": "90688155b0da82de",
+      "text": "Plugin source is available. [https://github.com/WardCunningham/wiki-plugin-tab github]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "About Tab Plugin",
+        "story": [
+          {
+            "type": "paragraph",
+            "id": "70948bf219a8341a",
+            "text": "Here we describe the purpose of the plugin and include a sample."
+          },
+          {
+            "type": "tab",
+            "id": "7ae719d30d63098a",
+            "text": "This is text in the new plugin. You can *double-click* to edit it too."
+          }
+        ]
+      },
+      "date": 1484174753000,
+      "certificate": "from mkplugin.sh"
+    },
+    {
+      "type": "edit",
+      "id": "70948bf219a8341a",
+      "item": {
+        "type": "paragraph",
+        "id": "70948bf219a8341a",
+        "text": "This plugin will fetch and share tabular data from Wikipedia Commons .tab format files."
+      },
+      "date": 1485125497077
+    },
+    {
+      "type": "edit",
+      "id": "70948bf219a8341a",
+      "item": {
+        "type": "paragraph",
+        "id": "70948bf219a8341a",
+        "text": "This plugin will fetch and share tabular data from Wikimedia Commons .tab format files. [https://www.mediawiki.org/wiki/Help:Tabular_Data wikimedia]"
+      },
+      "date": 1485125533270
+    },
+    {
+      "type": "edit",
+      "id": "70948bf219a8341a",
+      "item": {
+        "type": "paragraph",
+        "id": "70948bf219a8341a",
+        "text": "This plugin will fetch and locally share tabular data from Wikimedia Commons .tab format files. [https://www.mediawiki.org/wiki/Help:Tabular_Data wikimedia]"
+      },
+      "date": 1485125573412
+    },
+    {
+      "type": "edit",
+      "id": "7ae719d30d63098a",
+      "item": {
+        "type": "tab",
+        "id": "7ae719d30d63098a",
+        "text": "Bea.gov/GDP by state.tab"
+      },
+      "date": 1485125621728
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "aaad76af5c88579a"
+      },
+      "id": "aaad76af5c88579a",
+      "type": "add",
+      "after": "7ae719d30d63098a",
+      "date": 1485125662882
+    },
+    {
+      "type": "edit",
+      "id": "aaad76af5c88579a",
+      "item": {
+        "type": "paragraph",
+        "id": "aaad76af5c88579a",
+        "text": "Double-click to edit the tab page title."
+      },
+      "date": 1485125706869
+    },
+    {
+      "type": "add",
+      "id": "90688155b0da82de",
+      "item": {
+        "type": "paragraph",
+        "id": "90688155b0da82de",
+        "text": "Plugin source is available. [https://github.com/WardCunningham/wiki-plugin-tab github]"
+      },
+      "after": "aaad76af5c88579a",
+      "date": 1485125805475
+    },
+    {
+      "type": "edit",
+      "id": "aaad76af5c88579a",
+      "item": {
+        "type": "paragraph",
+        "id": "aaad76af5c88579a",
+        "text": "Double-click to edit the .tab page title."
+      },
+      "date": 1485125871384
+    }
+  ]
 }
