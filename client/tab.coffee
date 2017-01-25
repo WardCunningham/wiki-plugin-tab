@@ -10,10 +10,11 @@ encode = (text)->
     .replace /\s/g, '_'
     .replace /'/g, '%27'
     .replace /^Data:/, ''
+    .replace /\.tab$/, ''
 
 emit = ($item, item) ->
   $item.append """
-    <div style="background-color:#eee;padding:15px;">
+    <div style="background-color:#eee;padding:15px; text-align:center;">
       <p> #{expand item.text} </p>
       <p class=caption> waiting </p>
     </div>
@@ -25,7 +26,7 @@ emit = ($item, item) ->
 
   commons = "https://commons.wikimedia.org/w/api.php"
   options = "action=jsondata&formatversion=2&format=json&origin=*"
-  $.getJSON "#{commons}?#{options}&title=#{encode item.text}", (result) ->
+  $.getJSON "#{commons}?#{options}&title=#{encode item.text}.tab", (result) ->
     rows = result.jsondata.data
     cols = result.jsondata.schema.fields
     $item.find('.caption').text "got #{rows.length} rows x #{cols.length} columns"
